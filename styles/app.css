@@ -631,7 +631,7 @@ img {
   flex-wrap: wrap;
   list-style: none;
   gap: 1rem;
-  margin: 10px;
+  margin: 11px;
 }
 
 @media only screen and (max-width: 900px) {
