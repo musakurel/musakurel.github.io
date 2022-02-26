@@ -50,9 +50,13 @@ body {
     body {
       font-size: 1.3rem; } }
 
+    
 img {
   width: 100%; }
-
+  .disabled {
+    pointer-events: none;
+    cursor: default;
+  }
 .container {
   max-width: 120rem;
   width: 90%;
@@ -462,7 +466,10 @@ img {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    gap: 2rem; }
+    gap: 1rem;
+  margin:10px; 
+}
+ 
     @media only screen and (max-width: 900px) {
       .about__skillsList {
         gap: 1.5rem; } }
